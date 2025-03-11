@@ -1,0 +1,39 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and log files
+*.log
+*.tmp
+
+# Ignore compiled or binary files
+*.class
+*.o
+*.exe
+*.dll
+*.so
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Ignore R-related files
+*.RData
+*.Rhistory
+.Rproj.user/
+.Rapp.history
+
+# Ignore ImageJ-related files
+*.ijm~  # Backup ImageJ macros
+*.batch  # Temporary batch files
+
+# Ignore Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Ignore general development environment files
+.idea/
+.vscode/
