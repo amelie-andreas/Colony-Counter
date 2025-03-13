@@ -12,7 +12,7 @@
 Colony-Counter is an ImageJ Macro designed to batch process images of bacterial colonies on agar plates.
 It leverages Labkit, a machine learning tool for segmentation and classification of microscopy images, to 
 separate bacterial colonies from a background (most often an agar plate of some sort) so they can be 
-counted by FIJI. The basic pipeline could probably be used to separate and count any collection of circular
+counted by FIJI. The basic process could probably be used to separate and count any collection of circular
 objects from a background with sufficient contrast, so do with it what you will!
 
 This macro draws heavily from nucleus segmentation protocols from the Harvard [Image Analysis Collaboratory](https://iac.hms.harvard.edu/), a brilliant resource for FIJI and other image analysis education.
@@ -78,9 +78,9 @@ Here is a (originally-intended-to-be) brief overview of the process Colony-Count
 You will need FIJI/ImageJ to run this macro. This is the version of ImageJ this macro was optimzed for:
 <img width="497" alt="Screenshot 2025-03-12 at 11 24 15 AM" src="https://github.com/user-attachments/assets/1c3e9457-c1ee-4b7d-936b-36df01ae4d7c" />
 
-First, download the ColonyCounterMacro.ijm file from this repository
+First, download the ColonyCounterMacro.ijm file from this repository, and save it somewhere you can find easily.
 
-You can run a macro in FIJI by navigating Plugins -> Macros -> run... and then selecting the ColonyCounterMacro.ijm file
+You can run a macro in FIJI by navigating Plugins -> Macros -> run... and then selecting the ColonyCounterMacro.ijm file. If you need to make changes to the macro itself, instead select Plugins -> Macros -> edit...
 
 ## Contributing
 Feel free to reach out with any needs or if you have useful edits you want to share!
