@@ -27,7 +27,7 @@ LABKIT: Labeling and Segmentation Toolkit for Big Image Data. Frontiers in Compu
 ## Process
 Here is a (originally-intended-to-be) brief overview of the process Colony-Counter takes to process your images, with some helpful tips:
 - ### Cropping Image
-  First, select your input directory (**all images should be in .jpg format!!!**). The macro will process all images in your directory, so it is recommended to separate images by strain or any treatments that significantly effect colony morphology. All images in a single directory will be processed by a single classifer (more on this in segmentation section).
+  First, select your input directory (**Update 06/13/2025 can now take .jpg, .tif, and .tiff files**). The macro will process all images in your directory, so it is recommended to separate images by strain or any treatments that significantly effect colony morphology. All images in a single directory will be processed by a single classifer (more on this in segmentation section).
   The macro will automatically generate an oval selection of the following parameters: `makeOval(908, 520, 1552, 1552)`
   You will be prompted to adjust the oval to be centered on your plate. The output will be stored in a 'cropped' folder in your image directory
 
