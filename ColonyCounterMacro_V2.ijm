@@ -34,6 +34,7 @@ for (i = 0; i < fileList.length; i++) {
 	run("Crop");
 	setBackgroundColor(0, 0, 0);
 	run("Clear Outside");
+	run("8-bit");
 
 	saveAs("Tiff", folder + "/cropped/" + fileName);
 	
